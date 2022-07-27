@@ -36,4 +36,5 @@ EXPOSE 8009 8080 8443
 
 USER 1001
 ENTRYPOINT [ "/opt/bitnami/scripts/jasperreports/entrypoint.sh" ]
+
 CMD [ "/opt/bitnami/scripts/tomcat/run.sh" ]
